@@ -10,7 +10,7 @@
 @layer base {
   html {
     font-family: "josefina";
-    font-display: Avenir;
+    font-display: auto;
     scroll-behavior: smooth;
   }
 }
