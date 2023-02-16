@@ -55,12 +55,14 @@ export default function Example() {
                     }`}
                   >
                     <img
-                      className="block h-12 w-auto rounded-full lg:hidden"
+                      loading="lazy"
+                      className="block h-12 w-12 rounded-full lg:hidden"
                       src={coiliseumLogo}
                       alt="Coliseum Boxing"
                     />
                     <img
-                      className="hidden h-12 w-auto rounded-full lg:block"
+                      loading="lazy"
+                      className="hidden h-12 w-12 rounded-full lg:block"
                       src={coiliseumLogo}
                       alt="Coliseum Boxing"
                     />
@@ -68,7 +70,7 @@ export default function Example() {
                 </div>
 
                 <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
+                  <div className="flex space-x-4 items-center h-full">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
