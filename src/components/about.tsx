@@ -49,23 +49,23 @@ export default function About() {
           </a>
         </div>
       </div>
-      <section className="bg-slate-200 p-10">
-        <div className="flex justify-center flex-wrap items-center gap-10">
+      <section className="bg-slate-200 p-10 sm:px-0">
+        <div className="flex justify-center flex-wrap items-center gap-5">
           {/* card */}
           {INFOCARDS.map((info) => (
-            <div className="rounded-xl w-full md:w-1/4 bg-white shadow-2xl flex flex-col justify-between h-98">
-              <div className="p-3 sm:p-5 h-28">
-                <h5 className="text-md mb-3 font-bold sm:text-lg">
+            <div className="rounded-xl w-full lg:w-1/4 bg-white shadow-2xl flex flex-col sm:flex-row lg:flex-col justify-between h-98 lg:h-[600px]">
+              <div className="p-3 sm:p-5 h-28 sm:w-72 md:w-full">
+                <h5 className="text-md mb-3 font-bold md:text-lg lg:text-xl">
                   {info.title}
                 </h5>
-                <p className="text-sm">{info.text}</p>
+                <p className="text-sm md:text-md lg:text-lg">{info.text}</p>
               </div>
-              <div className="w-full h-60 overflow-hidden">
+              <div className="w-full h-64 overflow-hidden lg:h-[400px]">
                 <img
                   loading="lazy"
                   src={info.image}
                   alt={info.title}
-                  className="w-full h-72 md:h-80 rounded-b-xl object-cover object-top scale-125"
+                  className="w-full h-72 rounded-b-xl object-cover object-top scale-125 -translate-y-12 lg:h-[400px]"
                 />
               </div>
             </div>
