@@ -25,6 +25,7 @@ export default function Info() {
         </p>
 
         <a
+          aria-label="Gym location"
           href="https://goo.gl/maps/tsckhvYg5QKJornZA"
           target="_blank"
           className="text-md mb-5 flex gap-3 sm:items-center sm:text-sm"
@@ -37,6 +38,7 @@ export default function Info() {
         </a>
 
         <a
+          aria-label="whatsapp contact"
           href="https://wa.me/529841797400"
           target="_blank"
           className="text-md mb-5 flex gap-3 sm:items-center sm:text-sm"
@@ -46,6 +48,7 @@ export default function Info() {
           <span className="underline"> Escríbenos para más información.</span>
         </a>
         <a
+          aria-label="Instagram account"
           href="https://www.instagram.com/coliseumboxingclub/"
           target="_blank"
           className="text-md mb-5 flex gap-3 sm:items-center sm:text-sm"
@@ -59,6 +62,7 @@ export default function Info() {
         <img
           loading="lazy"
           src={image}
+          alt="Boxing team training"
           className={`h-screen object-cover w-full`}
         />
       </div>

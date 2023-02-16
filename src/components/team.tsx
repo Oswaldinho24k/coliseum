@@ -45,6 +45,7 @@ export default function Team() {
           </h5>
           <p className="mb-3 text-center">
             <a
+              aria-label="Instagram coach account"
               href={`https://instagram.com/${coach.instagram}`}
               target="_blank"
               rel="noreferrer"

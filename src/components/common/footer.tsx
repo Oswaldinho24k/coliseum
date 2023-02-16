@@ -20,6 +20,7 @@ export default function Footer() {
         </div>
         <div className="mb-3 flex gap-5">
           <a
+            aria-label="Instagram account"
             href="https://www.instagram.com/coliseumboxingclub/"
             target="_blank"
             className="text-md flex gap-3 sm:items-center sm:text-sm"
@@ -28,6 +29,7 @@ export default function Footer() {
             <RiInstagramLine className="text-xl sm:text-2xl" />
           </a>
           <a
+            aria-label="whatsapp contact"
             href="https://wa.me/529841797400"
             target="_blank"
             className="text-md flex gap-3 sm:items-center sm:text-sm"
@@ -36,6 +38,7 @@ export default function Footer() {
             <RiWhatsappLine className="text-xl sm:text-2xl" />
           </a>
           <a
+            aria-label="facebook account"
             href="https://www.instagram.com/coliseumboxingclub/"
             target="_blank"
             className="text-md flex gap-3 sm:items-center sm:text-sm"
@@ -49,7 +52,12 @@ export default function Footer() {
         </p>
         <p className="text-center text-xs text-white/70">
           Made with 🥊 by{" "}
-          <a className="" href="https://oswaldinho24k.dev/">
+          <a
+            className=""
+            href="https://oswaldinho24k.dev/"
+            target="_blank"
+            aria-label="Oswaldinho website for contact"
+          >
             Oswaldinho
           </a>
         </p>

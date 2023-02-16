@@ -41,6 +41,7 @@ export default function About() {
             Coliseum Boxing Club
           </h2>
           <a
+            aria-label="Instagram hashtag"
             href="https://www.instagram.com/explore/tags/thisiscoliseum/"
             className="mb-3 w-full text-center text-xl underline"
           >
@@ -63,7 +64,7 @@ export default function About() {
                 <img
                   loading="lazy"
                   src={info.image}
-                  alt="Coliseum Boxing Club"
+                  alt={info.title}
                   className="w-full h-72 md:h-80 rounded-b-xl object-cover object-top scale-125"
                 />
               </div>

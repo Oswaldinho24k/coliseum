@@ -73,6 +73,7 @@ export default function Example() {
                   <div className="flex space-x-4 items-center h-full">
                     {navigation.map((item) => (
                       <a
+                        aria-label="navbar item"
                         key={item.name}
                         href={item.href}
                         className={classNames(
